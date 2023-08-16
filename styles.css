@@ -1,0 +1,86 @@
+button {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: linear-gradient(#222222, #000000);
+    color: #aaaadd;
+    padding: 1px 5px;
+    width: 80px;
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+button.hidebtn {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: linear-gradient(#222222, #000000);
+    color: #aaaadd;
+    padding: 1px 5px;
+    width: 80px;
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+button.hidebtn:hover {
+    background: linear-gradient(#222288, #000000);
+}
+
+body {
+    background: #111111;
+    color: #aaaaaa;
+    font-family: Courier New;
+}
+
+#main {
+    border: 1px solid #666666;
+    border-radius: 3px;
+    margin: 1em 1em;
+    width: 700px;
+    height: 30em;
+    max-height: 30em;
+    background: linear-gradient(#000000, #222222);
+    padding: 0.5em;
+    font-family: Courier New;
+    font-size: 12px;
+    overflow-y: scroll;
+}
+
+#input {
+height: 300px;
+width: 400px;
+background: #000000;
+border: 1px solid #666666;
+border-radius: 3px;
+opacity: 0.8;
+color: #aaaaaa;
+padding: 1em;
+position: fixed;
+top: 20%;
+left: 20%;
+visibility: hidden;
+}
+
+#confirm {
+    height: 300px;
+    width: 400px;
+    background: #000000;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    opacity: 0.8;
+    color: #aaaaaa;
+    padding: 1em;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    visibility: hidden;
+    }
+
+#notearea {
+    height: 8em;
+    width: 20em;
+    background: #000000;
+    color: #aaaaaa;
+}
+
+.brdr {
+    border-bottom: 2px dotted;
+}
